@@ -1,0 +1,20 @@
+<p>
+  main works!
+</p>
+
+<nav>
+  <div [routerLink]=" ['/user'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+    /login
+</div>
+  <a [routerLink]=" ['/'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+    /dddddd
+  </a>
+  <a [routerLink]=" ['/about'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+    about
+  </a>
+  <a [routerLink]=" ['/home'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+    home
+  </a>
+</nav>
+
+<router-outlet></router-outlet>
